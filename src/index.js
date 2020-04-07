@@ -10,6 +10,8 @@ import thunk from 'redux-thunk';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+window.$apiBaseUrl = 'https://jsonplaceholder.typicode.com/';
+
 const store = createStore(rootReducer,
     applyMiddleware(thunk), 
 );

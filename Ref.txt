@@ -2,6 +2,8 @@ https://www.youtube.com/watch?v=4uzEUATtNHQ&list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNw
 
 https://github.com/iamshaunjp/react-redux-complete-playlist
 
+https://www.youtube.com/watch?v=sNyXE35liAE
+
 DAMI API: https://jsonplaceholder.typicode.com/
 
 
