@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=4uzEUATtNHQ&list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG&index=29
+
+https://github.com/iamshaunjp/react-redux-complete-playlist
+
+DAMI API: https://jsonplaceholder.typicode.com/
+
+
+
+PROJECT SET UP
+==========================================================================
+BOOTSTRAP INSTALL
+npm install --save bootstrap
+npm install --save reactstrap react react-dom
+CDN ADD INTO public/index.html 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reactstrap/4.8.0/reactstrap.min.js"/>
+
+**********
+NECESSARY PACKAGES FOR ANY PROJECT
+npm install redux, react-redux, redux-thunk, axios;
+npm install --save react-router
+npm install --save react-router-dom
+==========================================================================
