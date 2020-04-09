@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 class Post extends Component {
     state = { 
@@ -8,9 +9,7 @@ class Post extends Component {
         posts : [ ]
      }
 
-     componentDidMount(){
-        this.getPost();
-    }
+     
 
     ///////////////Methods/////////////
     getPost(){
@@ -24,7 +23,7 @@ class Post extends Component {
     ///////////////Methods/////////////
 
     render() { 
-        const { posts } = this.state
+        const { posts } = this.props.posts
         const postList = posts.length ? (
         posts.map(post => {
             return (
@@ -56,5 +55,11 @@ class Post extends Component {
          );
     }
 }
+
+const mapStateToProps = (state)=>{
+    return{
+        posts : state.posts
+    }
+}
  
-export default Post;
+export default connect(mapStateToProps)(Post);
